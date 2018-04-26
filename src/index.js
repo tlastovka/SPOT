@@ -6,7 +6,7 @@ import './index.css';
 class App extends React.Component {
 	render() {
 		return (
-			<h1>Hello, Hackathon!</h1>
+			<h1>Hello, from the SPOT!</h1>
 		)
 	}
 }
