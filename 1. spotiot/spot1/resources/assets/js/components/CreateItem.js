@@ -2,7 +2,8 @@
 
 import React, {Component} from 'react';
 
-class CreateItem extends Component {
+
+class CreateItem extends React.Component {
     render() {
         return (
             <div className="form-control-lg align-content-center ">

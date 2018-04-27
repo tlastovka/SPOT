@@ -1,9 +1,10 @@
 // Master.js
 
 import React, {Component} from 'react';
-//import { Router, Route, Link } from 'react-router';
+import CreateItem from "./CreateItem";
 
-class Master extends Component {
+
+class Master extends React.Component {
     render(){
         return (
             <div className="container">
@@ -22,8 +23,9 @@ class Master extends Component {
                     </div>
                 </nav>
                 <div>
-                    {this.props.children}
-                </div>
+                    {/* {this.props.children}  problem with children and the routing*/}
+                    <CreateItem/>
+                    </div>
             </div>
         )
     }
