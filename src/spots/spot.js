@@ -29,8 +29,7 @@ export class Spot extends React.Component {
         return (
             <div>
                 <h2>Spot No.: {this.state.spotId} </h2>  {/* I want to show Id of the spot! */}
-                <p>Coordinates: X:{this.state.spotX} Y:{this.state.spotY}</p>
-                <p>Coordinates: X:{this.state.sweetStartOccup} Y:{this.state.sweetEndOccup}</p>
+                <p>Coordinates: X:{this.state.spotX} Y:{this.state.spotY}</p> {/* These are geo coordinates of the respective Spot! */}
             </div>
         )
     }
