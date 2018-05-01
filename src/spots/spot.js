@@ -1,3 +1,8 @@
+//Tests
+console.log("spot.js is running");
+//End of Tests
+//Install -> Import -> Use
+
 import React from 'react';
 import './spot.css';
 
